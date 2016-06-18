@@ -1,0 +1,20 @@
+/* CSS Document */
+.leftArea{ width:210px;}
+
+/*.sub{ width:208px; height:200px; margin-top:20px; overflow:hidden;}
+.subNews{ height:143px; background:#fff; padding:0 15px 10px; margin-bottom:10px; border:1px solid #e4e4e4;}
+.subNews .t{font-size:18px; line-height:2; border-bottom:1px solid #ddd; margin-bottom:10px; padding:5px 0 0; font-weight:bold;}
+.subNews a{ margin:0 5px; display:inline-block; vertical-align:middle; padding:0 5px;}
+.subNews .tag1{font-size:18px; color:#7e785d; font-weight:bold;}
+.subNews .tag2{font-size:16px; color:#544e34;}
+.subNews .tag3{font-size:14px; color:#7e7657;}
+.subNews a:hover{color:#000; background:#e4e4e4;}
+.subNews .title{font-size:18px; font-weight:bold; color:#7e7657; line-height:30px; color:#7e7657; margin-bottom:10px ;padding:5px 0 0; border-bottom:1px solid #ddd;}*/
+.newsInfo{ margin-top:20px; height:370px; overflow:hidden;}
+.newsInfo li{ line-height:25px; }
+.newsInfo li a{ width:400px; overflow:hidden;}
+.newsInfo li a:hover{ color:#000;}
+.page{ text-align:center; margin-left:150px; margin-top:20px;}
+.page a{ float:left; width:16px; height:16px; line-height:16px; border:1px solid #5e521d; text-align:center; margin-right:10px;}
+.page a.currentPoint,.page a:hover{ color:#fff; background:#5e521d;}
+.page a.pre,.page a.next{ width:50px;}

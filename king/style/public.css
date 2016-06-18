@@ -1,0 +1,27 @@
+/* CSS Document */
+.content{ min-height:450px; _height:450px; margin-bottom:20px;}
+
+.leftContent{ width:208px; min-height:150px; _height:150px; border:1px solid #e4e6e8; background:#fff; position:relative; top:-12px;}
+.leftBg{ position:absolute; top: 12px; left:-6px; z-index:0;}
+.leftList{ position:relative; z-index:2; text-align:center; font-family:"宋体"; margin-top:15px;}
+.leftList li{ width:208px; height:35px; line-height:35px;}
+.list1{ background:url(../images/aboutUs/quan.png) 38px 7px no-repeat;}
+.list1 a{ font-size:16px; color:#fff; font-weight: bold;}
+.list2 a{ font-size:14px; color:#5e521d;font-weight: bold;}
+.list2 a.currentA{ color:#000;}
+
+/*rightContent*/
+.rightContent{ width:672px; min-height:346px; _height:346px; border:1px solid #e4e6e8; background:#fff; position:relative; top:-12px; padding:0 38px 30px;}
+.rightTitle{width:672px; height:44px; padding-top:8px; line-height:40px; background: url(../images/aboutUs/line.png) 0 47px no-repeat;}
+.rightTitle h2{ height:40px; line-height:40px; font-size:14px; text-indent:30px; background:url(../images/aboutUs/mao.png) 0 center no-repeat;}
+.location{ color:#666;}
+
+.foot{ background:#e4e4e4;}
+
+
+
+
+
+
+
+

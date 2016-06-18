@@ -1,0 +1,128 @@
+/* CSS Document */
+/*banner--------------------------------*/
+#focus{width:100%; height:500px; overflow:hidden;position:relative;}
+#focus ul{height:500px; position:absolute;}
+#focus ul li{float:left; height:500px;overflow:hidden;position:relative;}
+#focus ul li img{float:left;}
+#focus ul li div{position:absolute; overflow:hidden;}
+
+#focus .btnBg{position:absolute; width:100%;height:20px;left:0;bottom:0;background:#000;}
+#focus .btn{position:absolute; width:900px;height:10px;padding:5px 30px;right:100px;bottom:0;text-align:right;}
+#focus .btn span{display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+#focus .btn span.on{background:#fff;}
+#focus .preNext{width:45px; height:100px; position:absolute; top:120px;background:url(../images/spritebtn.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre{left:0;}
+#focus .next{right:100px;background-position:right top;}
+
+/*.bannerArea{ height:500px; overflow:hidden;}*/
+/*banner-------------------------*/
+.banban{ width:100%; height:500px; overflow:hidden;}
+#banner{width:100%;height:500px;}
+#banner a{width:100%;height:500px;}
+
+/*banner--------------------*/
+/* Content Begin */
+/*#slideshow {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+#slideshow .container {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	z-index: 10;
+}
+#slideshow .mask {
+	width: 640px;
+	cursor: pointer;
+	height: 300px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 30;
+}
+#slideshow .caption {
+	width: 580px;
+	bottom: 30px;
+	left: 30px;
+	position: absolute;
+	z-index: 35;
+}
+#slideshow .preview {
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	width: 100px;
+	background: #FFFFFF;
+	color: #000000;
+	display: none;
+	padding: 5px;
+	position: absolute;
+	right: 35px;
+	text-align: center;
+	top: 15px;
+	z-index: 35;
+	font-size: 82%;
+}
+#slideshow .preview span {
+	display: block;
+	padding-top: 3px;
+}
+#slideshow .slide {
+	width:100%;
+	height:500px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height:500px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 15;
+}
+#slideshow .slide .click-area {
+	width:100%;
+	height:500px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: 20;
+}
+#slideshow .slide .click-area embed {
+	z-index: 25;
+}*/
+
+
+
+
+/*newsCenter--------------------------------*/
+.newsCenter{ background:#e4e4e4;}
+.news{ width:320px; height:120px; margin-top:20px; overflow:hidden;}
+.news dt{ font-size:18px; font-weight:bold; color:#7e7657; line-height:30px;}
+.news dd{ line-height:22px; font-size:12px;}
+.news dd a{ color:#7e7657; width:220px; overflow:hidden;}
+.news dd span{ color:#868686;}
+
+.show .pre,.show .next{ float:left; cursor:pointer;}
+.show_main{ position:relative; margin-top:-6px; width:564px; height:159px; overflow:hidden; background:url(../images/line.gif) 0 7px no-repeat;}
+.show_main li{ float:left; padding:0 6px; width:176px; height:159px; overflow:hidden; background:url(../images/line.gif) right 7px no-repeat; position:relative; z-index:10;}
+#share{ height:100px; background:url(../images/btBg.png) repeat-x;}
+#share label{ color:#333333; font-size:12px; font-weight:bold; line-height:30px;}
+.shareMain{ height:100px; background:url(../images/smap.png) left center no-repeat;}
+.search{ margin-left:145px; margin-top:10px; display:inline;}
+.shares{ height:25px; margin-top:40px; margin-left:90px; display:inline;}
+.bor1,.bor2,.qzone,.sina,.renren,.qq{ background:url(../images/allPics.png) no-repeat;}
+.bor1,.bor2{ color:#666666; text-indent:10px; height:32px; line-height:32px; border:none; }
+.bor1{ width:273px; background-position:0 0;}
+.bor2{ width:66px; background-position:-273px 0;}
+.qzone,.sina,.renren,.qq{ float:left; width:22px; height:25px;}
+.qzone{ background-position:0 -45px;}
+.sina{ background-position:0 -72px;}
+.renren{ background-position:0 -97px;}
+.qq{ background-position:0 -123px;}
+.shares span{ color:#333; line-height:24px;}
+.weixin{ width:100px; height:90px; padding-top:10px; color:#333; margin-right:35px; display:inline;}
+.weixin span{ width:15px; color:#666;}

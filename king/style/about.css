@@ -1,0 +1,5 @@
+/* CSS Document */
+.rightInfor{ width:370px; height:300px; margin:25px 0 0 175px;}
+.rightInfor li{ width:370px; line-height:23px; }
+.rightInfor li strong{ width:115px; text-align:left; color:#5e521d;}
+.rightInfor li span{ color:#666;}

@@ -1,0 +1,50 @@
+/* CSS Document */
+.product{ width:168px; height:110px; text-align:center;}
+.product dt{ height:70px;}
+.product dd a{ color:#666;}
+.product dd a:hover{ color:#f00;}
+
+
+
+.bubblewrap{ margin-top:20px;}
+.bubblewrap li{
+display:inline-block;
+zoom:1; /*Trigger haslayout in IE7 and less*/
+*display:inline; /*For IE7 and less*/
+position:relative;
+width: 163px;
+height:60px;
+}
+
+.bubblewrap li img{
+position:absolute;
+width: 120px; /*default width of each image.*/
+height: 50px; /*default height of each image.*/
+left:0;
+top:0;
+border:0;
+padding-left:20px;
+}
+
+
+.bubblewrap li.word{ width:162px; height:40px; line-height:20px; text-align:center;}
+.bubblewrap li.word a{ color:#666;}
+.bubblewrap li.word a:hover{ color:#f00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

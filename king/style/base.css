@@ -1,0 +1,23 @@
+/* CSS Document */
+/*head-------------------------*/
+.header{ height:120px; overflow:hidden;  background:url(../images/topBg.jpg) top center no-repeat;}
+.logo{ display:block; background:url(../images/logo.png) no-repeat; width:200px; height:90px; margin-left:50px;}
+.language{ height:30px; line-height:30px; text-align:right; margin-right:32px; color:#88782e;}
+.language a{ color:#88782e;}
+/*nav-------------------------*/
+#nav{padding-top:20px; height:70px; text-align:center; font-family:"微软雅黑"; overflow:hidden;}
+#nav li{ float:left; height:45px; width:125px; padding-top:10px; position:relative;}
+#nav li.line_off{background:none}
+#nav a{ display:block; float:left; height:50px; color:#88782e; font-size:16px; font-weight:bold; line-height:28px; width:125px;blr:expression(this.onFocus=this.blur());outline:none; position:relative; top:0;}
+#nav a:hover,#nav .active a,#nav li.sfhover a{ color:#247ed2;}
+#nav a span{ cursor:pointer;  display:block; -webkit-text-size-adjust:none; line-height:12px; top:0; font-size:8px; font-weight:bold;  position:relative; top:0;}
+#nav li.sep{ width:25px; height:50px;}
+
+.foot{ background:#fff; height:95px; padding-top:20px; text-align:center; line-height:20px;}
+.subNav,.subNav a{ line-height:20px; color:#666666;}
+
+
+
+
+
+

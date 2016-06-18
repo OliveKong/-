@@ -1,0 +1,17 @@
+/* CSS Document */
+*{ margin:0; padding:0; }
+ul{ list-style:none;}
+a{ text-decoration:none; color:#000;}
+img{ border:none;}
+body{ background:#fff; font-size:12px; font-family:"宋诗";}
+
+.left{ float:left;}
+.right{ float:right;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; overflow:hidden;}
+.clearfix{ zoom:1;}
+.wrapper{ width:1160px; margin:0 auto;}
+.swrapper{ width:980px; margin:0 auto;}
+
+.lightGrey{ color:#999;}
+.deepGrey{ color:#666;}
+.gold{ color:#5e521d;}
